@@ -8,13 +8,15 @@ The script pulls current roster and pitching data, filters for pitchers, and dis
 ERA
 WHIP
 Batting average against
+IP
+Weighted Results
 
 I built this project while learning how to work with APIs, dictionaries, loops, and live sports data in Python.
 
 Team Reviewed
 Milwaukee Brewers
-What I Found
 
+What I Found
 The goal of this project was to practice pulling live MLB data and using Python to review pitcher performance.
 
 This project helped me practice:
@@ -24,6 +26,7 @@ Filtering players by position
 Extracting specific pitching statistics
 Troubleshooting errors like missing keys or incorrect field names
 Reviewing pitchers using common baseball metrics
+Ranking using multiple stats and weighting them against eachother.
 
 Skills Demonstrated
 Python
@@ -33,8 +36,9 @@ Debugging
 Exporting to a CSV
 Sports analytics
 Basic data analysis
-Looking for Feedback
+Using Weighted models
 
+Looking for Feedback
 I am new to GitHub and still learning Python, so I would really appreciate feedback or suggestions.
 
 Some areas I would love help with:
