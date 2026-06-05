@@ -30,6 +30,7 @@ Python
 API usage
 Data extraction
 Debugging
+Exporting to a CSV
 Sports analytics
 Basic data analysis
 Looking for Feedback
