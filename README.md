@@ -3,57 +3,89 @@ Project Overview
 
 This is a beginner Python project I built to pull and review Milwaukee Brewers pitching statistics using the MLB Stats API.
 
+How to Run:
+
+Make sure Python is installed on your computer.
+
+Install the required packages:
+pip install MLB-StatsAPI pandas
+
+Download or clone this GitHub repository.
+
+Open the project folder in your terminal or command prompt.
+
+Run the Python file:
+python brewers_pitcher_comparison.py
+
+When prompted, enter the season you want to review.
+
+Example:
+
+What season do you want to review?: 2026
+
+The script will print the Brewers pitcher rankings in the terminal and save the results as a CSV file:
+brewers_pitcher_comparison_weighted.csv
+
+You can open the CSV file in Excel or Google Sheets to review, sort, or save the results.
+
 The script pulls current roster and pitching data, filters for pitchers, and displays key performance metrics such as:
 
-ERA
-WHIP
-Batting average against
-IP
+ERA,
+WHIP,
+Batting average against,
+IP,
 Weighted Results
 
 I built this project while learning how to work with APIs, dictionaries, loops, and live sports data in Python.
 
 Team Reviewed
+
 Milwaukee Brewers
 
 What I Found
+
 The goal of this project was to practice pulling live MLB data and using Python to review pitcher performance.
 
 This project helped me practice:
-Pulling data from an API
-Working with nested Python dictionaries
-Filtering players by position
-Extracting specific pitching statistics
-Troubleshooting errors like missing keys or incorrect field names
-Reviewing pitchers using common baseball metrics
+
+Pulling data from an API,
+Working with nested Python dictionaries,
+Filtering players by position,
+Extracting specific pitching statistics,
+Troubleshooting errors like missing keys or incorrect field names,
+Reviewing pitchers using common baseball metrics,
 Ranking using multiple stats and weighting them against eachother.
 
 Skills Demonstrated
-Python
-API usage
-Data extraction
-Debugging
-Exporting to a CSV
-Sports analytics
-Basic data analysis
-Using Weighted models
+
+Python,
+API usage,
+Data extraction,
+Debugging,
+Exporting to a CSV,
+Sports analytics,
+Basic data analysis,
+Using Weighted models.
 
 Looking for Feedback
+
 I am new to GitHub and still learning Python, so I would really appreciate feedback or suggestions.
 
 Some areas I would love help with:
-Making the code cleaner
-Improving the output formatting
-Adding more pitching metrics
-Making the project easier for others to run
-Adding visualizations in the future
+Making the code cleaner,
+Improving the output formatting,
+Adding more pitching metrics,
+Making the project easier for others to run,
+Adding visualizations in the future.
 
 Future Improvements
+
 Things I may add later:
-Add charts
-Sort pitchers by ERA, WHIP, or batting average against
-Create a weekly report using updated stats
-Compare Brewers pitching stats over time
+Add charts,
+Sort pitchers by ERA, WHIP, or batting average against,
+Create a weekly report using updated stats,
+Compare Brewers pitching stats over time.
+
 Notes
 
 This project uses live MLB data, so the results may change depending on when the script is run.
